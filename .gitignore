@@ -1,3 +1,50 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore Python virtual environment
+pyvenv.cfg
+Lib/
+Include/
+Scripts/
+pyvenv/
+
+# Ignore any compiled Python files
+*.pyc
+
+# Ignore generated image files
+images/
+
+# Ignore database files
+PetShelter.db
+
+# Ignore any generated files or directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+
+# Ignore any generated documentation
+doc/
+
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore logs and logs directory
+logs/
+*.log
+
+# Ignore any backup files
+*~
+*.bak
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
